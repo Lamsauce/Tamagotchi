@@ -1,0 +1,194 @@
+#startGame {
+    font-size: 70px;
+    z-index: 1;
+    position: absolute;
+    top: 280px;
+    left: 420px;
+
+    color: black;
+    border: 5px solid black;
+    background: rgb(255, 118, 76);
+    cursor: pointer;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    /* Still needs to be centered and CONSISTENTLY CENTERED if page condenses or expands. */
+}
+
+/* h1{
+    position: absolute;
+    font-family: 'Nerko One', cursive;
+    color: red;
+    left: 50%;
+    /* Center this again, the ul shifted it to the right. 
+} */
+
+ul {
+    position: absolute;
+    font-family: 'Nerko One', cursive;
+    list-style-type: none;
+    display: inline-block;
+    border: 5px solid black;
+    text-align: center;
+    padding: 20px;
+    margin-left: 10px;
+    background: rgb(255, 118, 76);
+    font-size: 24px;
+    /* Have the stats blink slowly/to show their actively changing rather than static */
+}
+
+#egg {
+    position: absolute;
+    width: 270px;
+    left: 470px;
+    top: 210px;
+}
+
+#charmander {
+    position: absolute;
+    width: 17%;
+    left: 500px;
+    top: 300px;
+    animation: walk 20s infinite;
+
+}
+
+@keyframes walk {
+    100% {
+      left: 500px;
+    }
+  
+    50% {
+      left: 200px;
+    }
+
+    25% {
+      left: 740px;
+    }
+
+    0% {
+        left: 500px;
+    }
+  }
+
+
+#charmeleon {
+    position: absolute;
+    width: 350px;
+    left: 500px;
+    top: 235px;
+    animation: walk 20s infinite;
+}
+
+#charizard {
+    position: absolute;
+    width: 430px;
+    left: 430px;
+    top: 130px;
+    animation: walk 20s infinite;
+}
+
+#missingNo {
+    position: absolute;
+    width: 10%;
+    left: 550px;
+    top: 220px;
+
+}
+
+.displayName {
+    color: white;
+    font-family: 'Nerko One', cursive;
+    font-size: 40px;
+    left: 475px;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    width: 20%;
+    text-shadow: 0 0 5px black, 0 0 5px black;
+}
+
+
+#timer {
+    font-size: 20px;
+    position: absolute;
+    right: 250px;
+    color:rgb(228, 0, 0);
+    font-family: 'Nerko One', cursive;
+    width: 20%;
+}
+
+#age {
+    font-size: 20px;
+    position: absolute;
+    right: 150px;
+    color: rgb(228, 0, 0);
+    font-family: 'Nerko One', cursive;
+    width: 10%;
+}
+
+.buttonActivity {
+    margin: 100px;
+}
+
+#hungerButton {
+    font-family: 'Nerko One', cursive;
+    margin: 370px 80px;
+    font-size: 30px;
+    padding: 15px 32px;
+    cursor: pointer;
+    border: 5px solid black;
+    background: rgb(255, 118, 76);
+}
+
+#energyButton {
+    font-family: 'Nerko One', cursive;
+    margin: 50px;
+    font-size: 30px;  
+    padding: 15px 32px;
+    cursor: pointer;
+    border: 5px solid black;
+    background: rgb(255, 118, 76);
+}
+
+#entertainmentButton {
+    font-family: 'Nerko One', cursive;
+    margin: 50px;
+    font-size: 30px;
+    padding: 15px 32px;
+    cursor: pointer;
+    border: 5px solid black;
+    background: rgb(255, 118, 76);
+}
+
+
+#namePet {
+    position: absolute;
+    left: 525px;
+    top: 350px;
+    z-index: 2;
+
+}
+
+#registerName {
+    position: absolute;
+    top: 375px;
+    left: 535px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#resetButton {
+    font-size: 40px;
+    z-index: 1;
+    position: absolute;
+    top: 280px;
+    left: 300px;
+
+    color: black;
+    border: 5px solid black;
+    background: rgb(255, 118, 76);
+}

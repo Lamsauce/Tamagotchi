@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./styles/main.css">
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <!-- Main JS -->
+  <script src="./scripts/app.js" defer></script>
+    <title>Tamagotchi</title>
+</head>
+<body>
+
+    <div class="background">
+        <!-- By Fez Escalante - Pixel Art Backgrounds - https://www.behance.net/gallery/65290819/Pixel-Art-Backgrounds-Tutorial-Skip -->
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/01073865290819.5d61d475f0072.jpg"/>
+    </div>
+    
+<!-- <h1>Tamagotchi</h1> -->
+    <ul>
+    <li><span id="hunger">Hunger: 10/10</span></li>
+    <li><span id="energy">Energy: 10/10</span></li>
+    <li><span id="entertainment">Entertainment: 10/10</span></li>
+    </ul>
+    <button id="startGame">Start Game!</button>
+
+    <div class="time">
+        <span id="timer">Time Until Next Age: </span>
+        <span id="age">Age: 0</span>
+    </div>
+
+
+    <!-- Insert "Choose your name of some sort box" -->
+    <div class=insertName>
+    <input type="text" id="namePet" placeholder="Name your pet!" onclick="inputName()" >
+    <button id="registerName">This is your new name!</button>
+</div>
+
+
+    <div class="displayName">
+        <p>Waiting For Name...]</p>
+    </div>
+
+
+
+    <div class="sprites">
+
+        <!-- Tumblr - https://25.media.tumblr.com/tumblr_lvwmhdE0lN1qg0dcvo1_500.gif -->
+        <img id="egg" src="https://25.media.tumblr.com/tumblr_lvwmhdE0lN1qg0dcvo1_500.gif"/>
+
+         <!-- Pokemon Amino Website - https://aminoapps.com/c/pokemon/page/blog/pokemon-18-day-challenge-day-5/Mjhk_ua13Z3eLbongLNDEWweJ3dK8v-->
+        <img id="charmander" src="https://pa1.narvii.com/6395/abbfb09024c83b880ef2f8e30a73a79c4b613af9_hq.gif"/>
+
+        <!-- Tumblr https://66.media.tumblr.com/tumblr_ma4fpfD6Tu1rfjowdo1_500.gif -->
+        <img id="charmeleon" src="https://66.media.tumblr.com/tumblr_ma4fpfD6Tu1rfjowdo1_500.gif"/>
+
+        <!-- gifs.alphacoders.com https://giffiles.alphacoders.com/139/13940.gif-->
+        <img id="charizard" src="https://giffiles.alphacoders.com/139/13940.gif"/>
+
+        <!-- Sourced from Giphy - glitch from Pokemon Red, Green, Blue -->
+        <img id="missingNo" src="https://i.giphy.com/media/3oKIPt0SFngUtj1LrO/giphy.webp"/>
+    </div>
+
+    <div class="buttonActivity">
+        <button id="hungerButton">Give Food</button>
+        <button id="energyButton">Nap Time</button>
+        <button id="entertainmentButton">Play a Game</button>
+    </div>
+
+    <div class="reset">
+        <button id="resetButton">Thank you for playing our game!<br>Refresh To Try Again!</button>
+    </div>
+
+
+</body>
+</html>
